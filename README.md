@@ -180,5 +180,22 @@ requests는 정적 웹 페이지만을 지원하여 생기는 Issue로 판단하
     <pre><code>df.to_csv('./csvsource/hyundai/현대_차량구매_QnA.csv', index=False, encoding='utf-8-sig')</code></pre>
     <br />
 
+
+병합 과정 중 발생한 오류
+=========================
+
+### 1. 패키지 내 병합 중 코드 인식 문제
+* 해결 방법
+
+    각각 실행하는 패키지에서 데이터 return의 인식 문제로 return 값이 불러오는 .py에서 적절한 위치에서 받는지 확인한다.
+    <br />
+
+### 2. 패키지에서 전달하는 DataFrame 형태 인식 문제(미해결)
+* 해결 방법
+
+    DataFrame에서 불러오는 Data 형태를 일치시켜서 코드의 재작성이 필요하지만 시간 상 해결하지 못함.
+    <br />
+
+
 재현 부분
 <!-- ## Folder Structure -->

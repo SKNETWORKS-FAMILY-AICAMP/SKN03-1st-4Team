@@ -3,7 +3,7 @@ import os
 
 class data_tag:
     def __init__(self):
-         for j in range(2020,2025):
+        for j in range(2020,2025):
             for i in range(1,13):
                 try:
                     df = pd.read_excel("./car_info/{year}/{year}_{month:02d}.xlsx".format(month = i, year = j), sheet_name="10.연료별_등록현황")
