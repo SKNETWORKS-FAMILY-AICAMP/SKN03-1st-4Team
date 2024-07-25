@@ -22,11 +22,15 @@ Team Name : 머니 위버 (Money Weavers)
 | 정재현 	| 팀원  	| 화면 구성 	| @Theeojeong     	|
 
 
-## Project Requirements
+## Project Subject
 
-* 자동차 등록 현황 조회 
+* MySQL
 
-* 브랜드별 분류
+* Crawling
+
+* Streanlit
+
+
 
 ## Flow Chart
 
@@ -68,9 +72,9 @@ Team Name : 머니 위버 (Money Weavers)
 
     faq_tag : 분류 (varchar(10))
 
-    faq_title : Q & A 제목(varchar(100))
+    faq_title : Q&A 제목(varchar(100))
 
-    faq_content : Q & A 내용(varchar(1000))
+    faq_content : Q&A 내용(varchar(1000))
 
 * **show tables~**
 
@@ -197,5 +201,32 @@ requests는 정적 웹 페이지만을 지원하여 생기는 Issue로 판단하
     <br />
 
 
-재현 부분
+## 화면 구성
+
+* **메인페이지**
+
+![alt text](image-9.png)
+
+* **FAQ**
+    * 현대
+
+    ![alt text](image-10.png)
+
+    * 기아
+
+    ![alt text](image-15.png)
+
+* **자동차 등록 현황 조회** 
+
+    * 전국 자동차 분포 현황
+
+    ![alt text](image-11.png)
+
+    * 전국 자동차 등록 개수
+
+    ![alt text](image-12.png)
+
+    * 지역별 차량 등록 현황(년월)
+
+    ![alt text](image-13.png)
 <!-- ## Folder Structure -->
